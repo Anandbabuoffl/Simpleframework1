@@ -1,0 +1,10 @@
+2022-03-19 11:31:12,919 DEBUG i.n.u.Recycler [AsyncHttpClient-1-2] -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-03-19 11:31:12,921 DEBUG i.n.u.Recycler [AsyncHttpClient-1-2] -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2022-03-19 11:31:12,922 DEBUG i.n.u.Recycler [AsyncHttpClient-1-2] -Dio.netty.recycler.linkCapacity: 16
+2022-03-19 11:31:12,922 DEBUG i.n.u.Recycler [AsyncHttpClient-1-2] -Dio.netty.recycler.ratio: 8
+2022-03-19 11:31:12,922 DEBUG i.n.u.Recycler [AsyncHttpClient-1-2] -Dio.netty.recycler.delayedQueue.ratio: 8
+2022-03-19 11:31:14,740 DEBUG i.n.h.c.c.Brotli [AsyncHttpClient-1-2] brotli4j not in the classpath; Brotli support will be unavailable.
+2022-03-19 11:31:14,925 DEBUG i.n.u.i.ThreadLocalRandom [main] -Dio.netty.initialSeedUniquifier: 0xef8f313c439a4714
+2022-03-19 11:31:18,574 INFO p.Base [main] user name entered
+2022-03-19 11:31:24,775 TRACE i.n.h.c.h.w.WebSocket08FrameEncoder [AsyncHttpClient-1-4] Encoding WebSocket Frame opCode=8 length=26
+2022-03-22 19:05:24,747 DEBUG i.n.u.i.l.InternalLoggerFactory [main] Using Log4J2 as the default logging framework

@@ -38,5 +38,10 @@ public String gettitle() {
 	String title=driver.getTitle();
 	return title;
 }
- 
+
 }
+
+
+
+
+

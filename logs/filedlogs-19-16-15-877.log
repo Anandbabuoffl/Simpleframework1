@@ -1,0 +1,10 @@
+2022-03-22 19:05:25,869 DEBUG i.n.u.Recycler [AsyncHttpClient-1-2] -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-03-22 19:05:25,873 DEBUG i.n.u.Recycler [AsyncHttpClient-1-2] -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2022-03-22 19:05:25,873 DEBUG i.n.u.Recycler [AsyncHttpClient-1-2] -Dio.netty.recycler.linkCapacity: 16
+2022-03-22 19:05:25,873 DEBUG i.n.u.Recycler [AsyncHttpClient-1-2] -Dio.netty.recycler.ratio: 8
+2022-03-22 19:05:25,873 DEBUG i.n.u.Recycler [AsyncHttpClient-1-2] -Dio.netty.recycler.delayedQueue.ratio: 8
+2022-03-22 19:05:26,610 DEBUG i.n.h.c.c.Brotli [AsyncHttpClient-1-2] brotli4j not in the classpath; Brotli support will be unavailable.
+2022-03-22 19:05:26,865 DEBUG i.n.u.i.ThreadLocalRandom [main] -Dio.netty.initialSeedUniquifier: 0x6fa59f066eb9cfe0
+2022-03-23 19:16:15,854 DEBUG i.n.u.i.l.InternalLoggerFactory [main] Using Log4J2 as the default logging framework
+2022-03-23 19:16:15,869 DEBUG i.n.u.ResourceLeakDetector [main] -Dio.netty.leakDetection.level: simple
+2022-03-23 19:16:15,869 DEBUG i.n.u.ResourceLeakDetector [main] -Dio.netty.leakDetection.targetRecords: 4

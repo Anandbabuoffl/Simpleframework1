@@ -36,6 +36,7 @@ public class Listnerandreports extends Base implements ITestListener {
 	@Override
 	public void onTestSuccess(ITestResult result) {
 		test.log(Status.PASS, " " + result.getMethod().getMethodName() + " is passed");
+		
 	}
 
 	@Override

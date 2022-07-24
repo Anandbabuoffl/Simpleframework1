@@ -1,0 +1,10 @@
+2022-06-12 12:38:11,907 DEBUG i.n.u.Recycler [AsyncHttpClient-1-2] -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-06-12 12:38:11,910 DEBUG i.n.u.Recycler [AsyncHttpClient-1-2] -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2022-06-12 12:38:11,910 DEBUG i.n.u.Recycler [AsyncHttpClient-1-2] -Dio.netty.recycler.linkCapacity: 16
+2022-06-12 12:38:11,910 DEBUG i.n.u.Recycler [AsyncHttpClient-1-2] -Dio.netty.recycler.ratio: 8
+2022-06-12 12:38:11,910 DEBUG i.n.u.Recycler [AsyncHttpClient-1-2] -Dio.netty.recycler.delayedQueue.ratio: 8
+2022-06-12 12:38:12,623 DEBUG i.n.h.c.c.Brotli [AsyncHttpClient-1-2] brotli4j not in the classpath; Brotli support will be unavailable.
+2022-06-12 12:38:12,759 DEBUG i.n.u.i.ThreadLocalRandom [main] -Dio.netty.initialSeedUniquifier: 0x22a73b361104a12b
+2022-06-12 12:38:15,865 INFO p.Base [main] Application page
+2022-06-12 12:38:16,182 INFO p.Base [main] user name entered
+2022-06-12 12:38:23,175 TRACE i.n.h.c.h.w.WebSocket08FrameEncoder [AsyncHttpClient-1-4] Encoding WebSocket Frame opCode=8 length=26

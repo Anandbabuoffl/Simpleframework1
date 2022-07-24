@@ -4,10 +4,11 @@ import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.Random;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang.RandomStringUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -21,22 +22,27 @@ import org.testng.annotations.Parameters;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import utilities.Readconfig;
 
-public class Base { // public class Base implements Commonuse this is for interface
+public class Base { // public class Base implements Common use;this is for interface
 
 	public static WebDriver driver;
+	public static Logger log;
 	Readconfig rc = new Readconfig();
-
+	
+	
+	
 	public String baseurl = rc.geturl();
 	public String username = rc.getusername();
 	public String password = rc.getpassword();
+	
 
 	@Parameters("browser")
 	@BeforeSuite
 	public void desiredbrowsersetup(String desiredbrowser) {
+		log= LogManager.getLogger(Base.class.getName());
 		switch (desiredbrowser) {
 		case "chrome":
 			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();
+			 driver = new ChromeDriver();
 			break;
 		case "firefox":
 			WebDriverManager.firefoxdriver().setup();
@@ -52,6 +58,8 @@ public class Base { // public class Base implements Commonuse this is for interf
 		}
 		driver.get(baseurl);
 		driver.manage().window().maximize();
+		log.info("Application page");
+		
 	}
 
 	public static void addscreenshot(WebDriver driver, String testname) throws IOException {

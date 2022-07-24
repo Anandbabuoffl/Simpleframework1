@@ -16,6 +16,7 @@ public class LoginTC1 extends Base {
 	public void login() {
 	    lp=new Loginpage(driver);
 		lp.setfname(username);
+	    log.info("user name entered");
 		lp.password(password);
 		lp.login();
 	}
